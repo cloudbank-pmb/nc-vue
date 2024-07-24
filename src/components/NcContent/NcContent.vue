@@ -218,16 +218,15 @@ export default {
 .content {
 	box-sizing: border-box;
 	margin: var(--body-container-margin);
-	margin-top: 50px;
+	// margin-top: 50px;
 	display: flex;
 	width: calc(100% - var(--body-container-margin) * 2);
 	border-radius: var(--body-container-radius);
-	height: var(--body-height);
 	overflow: hidden;
 	padding: 0;
 
 	&:not(.with-sidebar--full) {
-		position: fixed;
+		//position: fixed;
 	}
 
 	:deep(*) {
