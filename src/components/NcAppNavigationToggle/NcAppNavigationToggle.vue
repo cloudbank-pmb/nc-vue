@@ -72,7 +72,10 @@ export default {
 	position: absolute;
 	top: var(--app-navigation-padding);
 	right: calc(0px - var(--app-navigation-padding));
-	margin-right: calc(-1 * var(--default-clickable-area));
+	margin-right: calc(-1.25 * var(--default-clickable-area));
+	@media screen and (max-width: 370px) {
+		margin-right: calc(-0.60 * var(--default-clickable-area));
+	}
 }
 
 button.app-navigation-toggle {
