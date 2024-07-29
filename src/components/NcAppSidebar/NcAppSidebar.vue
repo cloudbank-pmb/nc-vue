@@ -1295,6 +1295,9 @@ $top-buttons-spacing: $app-navigation-padding; // align with app navigation
 	background: var(--color-main-background);
 	// Make close button positioned relative to the header
 	position: relative;
+	padding-left: 5px;
+	margin-left: 5px;
+	border-radius: 20px;
 
 	&__toggle {
 		position: absolute !important;
