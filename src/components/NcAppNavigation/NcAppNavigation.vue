@@ -329,6 +329,8 @@ export default {
 	top: 0;
 	left: 0;
 	padding: 0px;
+	border-radius: 20px;
+	margin-right: 5px;
 	// Above NcAppContent
 	z-index: 1800;
 	height: 100%;
@@ -345,6 +347,11 @@ export default {
 
 	&--close {
 		margin-left: calc(-1 * min($navigation-width, var(--app-navigation-max-width)));
+		margin-right: 0;
+		.app-navigation-toggle-wrapper {
+		right: calc(-2.5px - var(--app-navigation-padding));
+		margin-right: -35px;
+		}
 	}
 
 	&__search {
