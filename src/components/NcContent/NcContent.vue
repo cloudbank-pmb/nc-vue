@@ -218,7 +218,7 @@ export default {
 .content {
 	box-sizing: border-box;
 	margin: var(--body-container-margin);
-	margin-top: 50px;
+	margin-top: 70px;
 	display: flex;
 	width: calc(100% - var(--body-container-margin) * 2);
 	border-radius: var(--body-container-radius);
