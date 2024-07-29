@@ -358,7 +358,7 @@ $externalMargin: 8px;
 	&__wrapper {
 		position: fixed;
 		z-index: 2000;
-		top: 50px;
+		top: 70px;
 		inset-inline-end: 0;
 		box-sizing: border-box;
 		margin: 0 $externalMargin;
