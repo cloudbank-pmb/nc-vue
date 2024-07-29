@@ -356,6 +356,7 @@ export default {
 	height: 100%;
 	// Overriding server styles TODO: cleanup!
 	margin: 0 !important;
+	border-radius: 20px;
 	background-color: var(--color-main-background);
 	min-width: 0;
 
